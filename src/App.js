@@ -16,7 +16,7 @@ return (
   <BrowserRouter>
   <Navebar/>
       <Routes>
-        <Route path='/Home' element={<Home/>}/>
+        <Route exact path='/' element={<Home/>}/>
         <Route path='/Empresa' element={<Empresa/>}/>
         <Route path='/Contato' element={<Contato/>}/>
       </Routes>
