@@ -1,0 +1,14 @@
+import { Link } from "react-router-dom"
+import styles from "./Navebar.module.css"
+
+function Navebar() {
+    return (
+        <ul className={styles.list}>
+          <li className={styles.item}><Link to="/Home">Home</Link></li>
+          <li className={styles.item}><Link to="empresa">Empresa</Link></li>
+          <li className={styles.item}><Link to="contato">Contato</Link></li>
+      </ul>
+    )   
+}
+
+export default Navebar
